@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Amirabbas Eshghi-Portfolio</title>
+</head>
+
+<body class="flex flex-col justify-between bg-white dark:bg-[#1e1e1e]">
+    <header class="mb-20">
+        <div class="container mx-auto px-3 sm:px-5 py-5 flex items-center justify-between dark:lg:gap-5 lg:gap-5"
+            id="Up">
+
+            <div class="dark:hidden w-[110px] sm:w-[130px] lg:w-[220px]">
+                <img src="images/header/logo-main.png" alt="Main-Logo" class="w-full h-full">
+            </div>
+            <div class="hidden dark:block w-[110px] sm:w-[130px] lg:w-[220px]">
+                <img src="images/header/logo-main-4.png" alt="Main-Logo" class="w-full h-full">
+            </div>
+
+            <div class="hidden md:block">
+
+                <ul class="flex items-center gap-5 text-sm lg:text-xl font-semibold dark:text-white">
+                    <!-- <li id="toggleDark"
+                        class="cursor-pointer  px-3 py-1 rounded-xl bg-gray-200 dark:bg-gray-700 text-black dark:text-white">
+                        <span id="darkIcon">🌙</span>
+                    </li> -->
+                    <li class="hover:underline hover:text-[#fd6f00]"><a href="#">Home</a></li>
+                    <li class="hover:underline hover:text-[#fd6f00]"><a href="#About">About Me</a></li>
+                    <li class="hover:underline hover:text-[#fd6f00]"><a href="#Services">Services</a></li>
+                    <li class="hover:underline hover:text-[#fd6f00]"><a href="#Projects">Projects</a></li>
+                    <li class="hover:underline hover:text-[#fd6f00]"><a href="#Testimonials">Testimonials</a>
+                    </li>
+                    <li class="hover:underline hover:text-[#fd6f00]"><a href="#Contact">Contact</a></li>
+                    <li
+                        class="bg-[#FD6F00] text-white px-3 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                        <a href="assets/Amirabbas Eshghi.pdf">Download CV</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div
+                class="md:hidden transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                <a href="assets/Amirabbas Eshghi.pdf"
+                    class="bg-[#FD6F00] text-white px-2 py-2 rounded-lg text-[12px] sm:text-sm font-semibold">Download
+                    CV</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex flex-col justify-center gap-28 relative">
+        <button
+            class="w-[33px] sm:w-[38px] bg-[#FD6F00] p-2 fixed right-4 bottom-5 sm:right-10 rounded-full z-10 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer"
+            id="Up"><a href="#Up"><img src="images/main/hero-section/angle-up.png" alt="angle-up"
+                    class="w-full h-full"></a>
+        </button>
+        <button id="toggleDark"
+            class="w-[37px] sm:w-[40px] text-center p-2 bg-gray-500 dark:bg-gray-300 text-black dark:text-white fixed right-4 bottom-18 sm:right-10 rounded-full z-10 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+            <span id="darkIcon">🌙</span>
+        </button>
+        <section>
+            <div class="container mx-auto px-3 sm:px-5 py-5 flex flex-col lg:flex-row items-center gap-5">
+                <div class="basis-2/4 flex flex-col mx-auto gap-6">
+                    <div class="flex flex-col gap-2">
+                        <h4 class="font-medium text-xl dark:text-white">Hi I am</h4>
+                        <h3 class="font-medium text-2xl text-[#FD6F00]">Amirabbas Eshghi</h3>
+                        <h1 class="font-bold text-3xl block sm:hidden dark:text-white">FrontEnd Developer</h1>
+                        <h2 class="hidden sm:block font-bold text-4xl sm:text-7xl dark:text-white">FrontEnd</h2>
+                        <h2 class="hidden sm:block font-bold text-4xl sm:text-7xl sm:text-center dark:text-white">
+                            Developer</h2>
+                    </div>
+                    <p class="w-full text-sm sm:text-lg dark:text-white">
+                        I'm an aspiring front-end developer with a solid foundation in HTML, CSS, Sass, Bootstrap, and
+                        Tailwind CSS. Currently expanding my skill set in JavaScript, jQuery, and ReactJS. I’m
+                        passionate about building responsive and aesthetically pleasing websites that offer smooth user
+                        experiences. My goal is to contribute to meaningful projects, collaborate with innovative teams,
+                        and continuously grow as a developer.
+                    </p>
+                    <button
+                        class="w-full sm:w-[130px] bg-[#FD6F00] text-white px-4 py-3 rounded-lg text-[12px] sm:text-sm font-semibold transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer"><a
+                            href="#Contact">Hire
+                            Me</a></button>
+                </div>
+                <div class="relative basis-2/4 flex flex-col items-center justify-center gap-5">
+                    <div class="absolute hidden sm:block top-8">
+                        <img src="images/main/hero-section/Rectangle 4.png" alt="shape-image">
+                    </div>
+                    <div class="w-full sm:w-96">
+                        <img src="images/main/hero-section/hero-image.png" alt="Amirabbas-image" class="w-full h-full">
+                    </div>
+                    <div>
+                        <ul class="flex items-center justify-center gap-5">
+                            <!-- <li
+                                class="transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/main/hero-section/Facebook.png" alt="Facebook-icon"
+                                        class="dark:hidden"></a>
+                                <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/main/hero-section/Facebook-1.png" alt="Facebook-icon"
+                                        class="hidden dark:block"></a>
+                            </li> -->
+                            <li
+                                class="transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <a href="https://github.com/amirabbas-eshghi" target="_blank"
+                                    rel="noopener noreferrer"><img src="images/main/hero-section/git-hub.png"
+                                        alt="twitter-icon" class="dark:hidden"></a>
+                                <a href="https://github.com/amirabbas-eshghi" target="_blank"
+                                    rel="noopener noreferrer"><img src="images/main/hero-section/git-hub-1.png"
+                                        alt="twitter-icon" class="hidden dark:block"></a>
+                            </li>
+                            <li
+                                class="transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <a href="https://www.instagram.com/amirabbaseshghi.dev?igsh=bm00eHI0Y2Q3Y21t"
+                                    target="_blank" rel="noopener noreferrer"><img
+                                        src="images/main/hero-section/Instagram.png" alt="Instagram-icon"
+                                        class="dark:hidden"></a>
+                                <a href="https://www.instagram.com/amirabbaseshghi.dev?igsh=bm00eHI0Y2Q3Y21t"
+                                    target="_blank" rel="noopener noreferrer"><img
+                                        src="images/main/hero-section/Instagram-1.png" alt="Instagram-icon"
+                                        class="hidden dark:block"></a>
+                            </li>
+                            <li
+                                class="transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <a href="https://www.linkedin.com/amirabbas-eshghi" target="_blank"
+                                    rel="noopener noreferrer"><img src="images/main/hero-section/LinkedIn.png"
+                                        alt="LinkedIn-icon" class="dark:hidden"></a>
+                                <a href="https://www.linkedin.com/amirabbas-eshghi" target="_blank"
+                                    rel="noopener noreferrer"><img src="images/main/hero-section/LinkedIn-1.png"
+                                        alt="LinkedIn-icon" class="hidden dark:block"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mx-auto px-3 sm:px-5 py-5 flex flex-col-reverse lg:flex-row items-center justify-between gap-10"
+                id="About">
+                <div class="relative basis-2/4 flex items-center justify-center">
+                    <div class="absolute hidden sm:block top-8">
+                        <img src="images/main/about-section/Rectangle 4.png" alt="shape-image">
+                    </div>
+                    <div class="w-ful sm:w-[420px]">
+                        <img src="images/main/about-section/about-image.png" alt="Amirabbas-About"
+                            class="w-full h-full">
+                    </div>
+                </div>
+                <div class="basis-2/4 flex flex-col justify-center mx-auto w-full gap-6">
+                    <h3 class="text-left text-4xl sm:text-5xl font-bold dark:text-white">About Me</h3>
+                    <p class="w-full mx-auto
+                     text-justify dark:text-white">
+                        I’m a motivated and detail-oriented front-end developer who enjoys turning creative ideas into
+                        functional, elegant web interfaces. With experience in tools like HTML, CSS, Sass, Bootstrap,
+                        and Tailwind CSS, I focus on delivering user-friendly and visually engaging websites. I’m
+                        currently diving deeper into JavaScript, jQuery, and ReactJS to build more dynamic and
+                        interactive applications. I believe in continuous learning and teamwork, and I’m always excited
+                        to take on new challenges that help me grow professionally.
+                    </p>
+                    <div
+                        class="flex flex-col items-center justify-center gap-10 sm:gap-20 dark:bg-[#fbfbfb] dark:rounded-2xl dark:py-4 dark:w-full">
+                        <div class="flex items-center justify-center gap-5 sm:gap-16 md:gap-28">
+                            <div
+                                class="w-[60px] sm:w-[80px] md:w-[100px] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <img src="images/main/about-section/sass.png" alt="sass-icon" class="w-full h-full">
+                            </div>
+                            <div
+                                class="w-[60px] sm:w-[80px] md:w-[100px] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <img src="images/main/about-section/bootstrap.png" alt="bootstrap-icon"
+                                    class="w-full h-full">
+                            </div>
+                            <div
+                                class="w-[60px] sm:w-[80px] md:w-[100px] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <img src="images/main/about-section/Tailwind.png" alt="tailwind-icon"
+                                    class="w-full h-full">
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center gap-5 sm:gap-16 md:gap-28">
+                            <div
+                                class="relative w-[60px] sm:w-[80px] md:w-[100px] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <img src="images/main/about-section/javascript.png" alt="javascript-icon"
+                                    class="w-full h-full opacity-30">
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <span
+                                        class="text-xs sm:text-sm md:text-xl text-orange-600 font-semibold">Learning...</span>
+                                </div>
+                            </div>
+                            <div
+                                class="relative w-[60px] sm:w-[80px] md:w-[100px] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <img src="images/main/about-section/react.png" alt="react-icon"
+                                    class="w-full h-full opacity-30">
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <span
+                                        class="text-xs sm:text-sm md:text-xl text-orange-600 font-semibold">Learning...</span>
+                                </div>
+                            </div>
+                            <div
+                                class="relative w-[60px] sm:w-[80px] md:w-[100px] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <img src="images/main/about-section/jquery.png" alt="jquery-icon"
+                                    class="w-full h-full opacity-30">
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <span
+                                        class="text-xs sm:text-sm md:text-xl text-orange-600 font-semibold">Learning...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mx-auto px-3 sm:px-5 py-5 flex flex-col items-center gap-16" id="Services">
+                <h2 class="font-bold text-5xl dark:text-white">Services</h2>
+                <p class="w-full md:w-[900px] text-center dark:text-white">
+                    I offer a range of front-end development services focused on creating modern, responsive, and
+                    user-friendly websites. From static pages to dynamic web applications, I specialize in using
+                    technologies such as Sass, Bootstrap, Tailwind CSS, ReactJS, jQuery, and JavaScript to bring your
+                    vision to life. Whether you're looking for a sleek website design or a fully interactive platform,
+                    I’m here to help you achieve your goals with quality and efficiency.
+                </p>
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center justify-center gap-4 xl:gap-6">
+                    <div
+                        class="h-[300px] flex flex-col items-start gap-4 bg-[#FBFBFB] p-5 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                        <div>
+                            <img src="images/main/service-section/responsive.png" alt="ui/ux-icon">
+                        </div>
+                        <h3 class="font-semibold text-xl">Responsive Web Design</h3>
+                        <p>
+                            I specialize in creating responsive websites that adapt seamlessly to various screen sizes
+                            and devices, ensuring an optimal user experience across desktops, tablets, and smartphones.
+                        </p>
+                    </div>
+
+                    <div
+                        class="h-[300px] flex flex-col items-start gap-3 bg-[#FBFBFB] p-5 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                        <div>
+                            <img src="images/main/service-section/react.png" alt="web-icon">
+                        </div>
+                        <h3 class="font-semibold text-xl">ReactJS Development</h3>
+                        <p>
+                            I develop dynamic and high-performance web applications using ReactJS, focusing on
+                            component-based architecture and efficient state management.
+                        </p>
+                    </div>
+                    <div
+                        class="h-[300px] flex flex-col items-start gap-3 bg-[#FBFBFB] p-5 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                        <div>
+                            <img src="images/main/service-section/jquery.png" alt="app-icon">
+                        </div>
+                        <h3 class="font-semibold text-xl">jQuery Integration</h3>
+                        <p>
+                            I enhance website interactivity and functionality by integrating jQuery, enabling smooth
+                            animations, event handling, and AJAX interactions.
+                        </p>
+                    </div>
+                    <div
+                        class="h-[300px] flex flex-col items-start gap-2 bg-[#FBFBFB] p-5 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                        <div>
+                            <img src="images/main/service-section/landing-page.png" alt="design-icon">
+                        </div>
+                        <h3 class="font-semibold text-xl">Landing Page Development</h3>
+                        <p>
+                            I build custom landing pages
+                            using technologies like Tailwind CSS and JavaScript to showcase your product or service.
+                            Each page is fast, responsive, and built to drive user engagement and conversion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mx-auto px-3 sm:px-5 py-5 flex flex-col items-center gap-16" id="Projects">
+                <h2 class="font-bold text-4xl sm:text-5xl dark:text-white">My Projects</h2>
+                <p class="w-full md:w-[800px] text-center dark:text-white">
+                    Here you'll find a selection of my front-end projects — crafted with HTML, CSS, JavaScript, and
+                    modern tools like Tailwind and React. Each project reflects my focus on responsive design, clean
+                    code, and user-centered experiences.
+                </p>
+
+                <div class="w-full overflow-x-auto flex items-center justify-center">
+                    <div
+                        class="flex snap-x snap-mandatory scroll-smooth overflow-x-auto items-center gap-4 px-4 py-2 scrollbar-hide">
+                        <label class="shrink-0">
+                            <input type="radio" name="tabs" class="peer hidden" checked />
+                            <div
+                                class="bg-[#FBFBFB] peer-checked:bg-[#FD6F00] peer-checked:text-white border border-gray-300 px-4 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <span class="text-xl font-medium">All</span>
+                            </div>
+                        </label>
+
+                        <label class="shrink-0">
+                            <input type="radio" name="tabs" class="peer hidden" />
+                            <div
+                                class="bg-[#FBFBFB] peer-checked:bg-[#FD6F00] peer-checked:text-white border border-gray-300 px-4 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <span class="text-xl font-medium">Tailwind</span>
+                            </div>
+                        </label>
+
+                        <label class="shrink-0">
+                            <input type="radio" name="tabs" class="peer hidden" />
+                            <div
+                                class="bg-[#FBFBFB] peer-checked:bg-[#FD6F00] peer-checked:text-white border border-gray-300 px-4 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <span class="text-xl font-medium">Bootstrap</span>
+                            </div>
+                        </label>
+
+
+                        <label class="shrink-0">
+                            <input type="radio" name="tabs" class="peer hidden" />
+                            <div
+                                class="bg-[#FBFBFB] peer-checked:bg-[#FD6F00] peer-checked:text-white border border-gray-300 px-4 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <span class="text-xl font-medium">Javascript</span>
+                            </div>
+                        </label>
+
+                        <label class="shrink-0">
+                            <input type="radio" name="tabs" class="peer hidden" />
+                            <div
+                                class="bg-[#FBFBFB] peer-checked:bg-[#FD6F00] peer-checked:text-white border border-gray-300 px-4 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <span class="text-xl font-medium">React</span>
+                            </div>
+                        </label>
+
+                        <label class="shrink-0">
+                            <input type="radio" name="tabs" class="peer hidden" />
+                            <div
+                                class="bg-[#FBFBFB] peer-checked:bg-[#FD6F00] peer-checked:text-white border border-gray-300 px-4 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                                <span class="text-xl font-medium">Jquery</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-5">
+                    <div
+                        class="bg-[#FBFBFB] flex flex-col justify-center gap-3 rounded-2xl pb-4 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                        <div>
+                            <img src="images/main/my-projects-section/tailwind.png" alt="" class="w-full h-full">
+                        </div>
+                        <h4 class="text-[#FD6F00] font-medium px-2">Tailwind</h4>
+                        <p class="font-semibold text-lg px-2">AirCalling Landing Page</p>
+                    </div>
+                    <div
+                        class="bg-[#FBFBFB] flex flex-col justify-center gap-3 rounded-2xl pb-4 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                        <div>
+                            <img src="images/main/my-projects-section/tailwind-1.png" alt="" class="w-full h-full">
+                        </div>
+                        <h4 class="text-[#FD6F00] font-medium px-2">Tailwind</h4>
+                        <p class="font-semibold text-lg px-2">Business Landing Page</p>
+                    </div>
+                    <div
+                        class="bg-[#FBFBFB] flex flex-col justify-center gap-3 rounded-2xl pb-4 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                        <div>
+                            <img src="images/main/my-projects-section/tailwind-2.png" alt="" class="w-full h-full">
+                        </div>
+                        <h4 class="text-[#FD6F00] font-medium px-2">Tailwind</h4>
+                        <p class="font-semibold text-lg px-2">Ecom Web Page</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mx-auto px-3 sm:px-5 py-5 flex flex-col items-center gap-16" id="Testimonials">
+                <h2 class="font-bold text-4xl sm:text-5xl dark:text-white">Testimonials</h2>
+                <p class="w-full md:w-[800px] text-center dark:text-white">
+                    Here’s what others say about working with me — real feedback from team members, clients, and mentors
+                    I've collaborated with on web development projects.
+                </p>
+
+                <div class="w-full relative">
+                    <div class="overflow-x-auto flex gap-5 snap-x scroll-smooth px-4 pb-8" id="testimonial-slider">
+                        <a id="slide-1"
+                            class="snap-center shrink-0 min-w-[80%] md:min-w-[60%] flex items-center gap-6 bg-[#FBFBFB] rounded-2xl p-5 scroll-mx-4">
+                            <div class="basis-1/4">
+                                <img src="images/main/Testimonials-section/user-1.png" alt="user-image"
+                                    class="w-full h-full">
+                            </div>
+                            <div class="basis-3/4 flex flex-col justify-center gap-3">
+                                <p class="text-justify w-[450px]">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto animi ducimus quas
+                                    quidem asperiores eius obcaecati voluptatibus voluptas tempora optio.
+                                </p>
+                                <h3 class="font-semibold text-lg">Name</h3>
+                                <h4 class="text-gray-600">CEO</h4>
+                            </div>
+                        </a>
+
+                        <a id="slide-2"
+                            class="snap-center shrink-0 min-w-[80%] md:min-w-[60%] flex items-center gap-6 bg-[#FBFBFB] rounded-2xl p-5 scroll-mx-4">
+                            <div class="basis-1/4">
+                                <img src="images/main/Testimonials-section/user-2.png" alt="user-image"
+                                    class="w-full h-full">
+                            </div>
+                            <div class="basis-3/4 flex flex-col justify-center gap-3">
+                                <p class="text-justify w-[450px]">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto animi ducimus quas
+                                    quidem asperiores eius obcaecati voluptatibus voluptas tempora optio.
+                                </p>
+                                <h3 class="font-semibold text-lg">Name</h3>
+                                <h4 class="text-gray-600">CEO</h4>
+                            </div>
+                        </a>
+
+                        <a id="slide-3"
+                            class="snap-center shrink-0 min-w-[80%] md:min-w-[60%] flex items-center gap-6 bg-[#FBFBFB] rounded-2xl p-5 scroll-mx-4">
+                            <div class="basis-1/4">
+                                <img src="images/main/Testimonials-section/user-1.png" alt="user-image"
+                                    class="w-full h-full">
+                            </div>
+                            <div class="basis-3/4 flex flex-col justify-center gap-3">
+                                <p class="text-justify w-[450px]">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto animi ducimus quas
+                                    quidem asperiores eius obcaecati voluptatibus voluptas tempora optio.
+                                </p>
+                                <h3 class="font-semibold text-lg">Name</h3>
+                                <h4 class="text-gray-600">CEO</h4>
+                            </div>
+                        </a>
+
+                        <a id="slide-4"
+                            class="snap-center shrink-0 min-w-[80%] md:min-w-[60%] flex items-center gap-6 bg-[#FBFBFB] rounded-2xl p-5 scroll-mx-4">
+                            <div class="basis-1/4">
+                                <img src="images/main/Testimonials-section/user-2.png" alt="user-image"
+                                    class="w-full h-full">
+                            </div>
+                            <div class="basis-3/4 flex flex-col justify-center gap-3">
+                                <p class="text-justify w-[450px]">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto animi ducimus quas
+                                    quidem asperiores eius obcaecati voluptatibus voluptas tempora optio.
+                                </p>
+                                <h3 class="font-semibold text-lg">Name</h3>
+                                <h4 class="text-gray-600">CEO</h4>
+                            </div>
+                        </a>
+
+                        <a id="slide-5"
+                            class="snap-center shrink-0 min-w-[80%] md:min-w-[60%] flex items-center gap-6 bg-[#FBFBFB] rounded-2xl p-5 scroll-mx-4">
+                            <div class="basis-1/4">
+                                <img src="images/main/Testimonials-section/user-1.png" alt="user-image"
+                                    class="w-full h-full">
+                            </div>
+                            <div class="basis-3/4 flex flex-col justify-center gap-3">
+                                <p class="text-justify w-[450px]">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto animi ducimus quas
+                                    quidem asperiores eius obcaecati voluptatibus voluptas tempora optio.
+                                </p>
+                                <h3 class="font-semibold text-lg">Name</h3>
+                                <h4 class="text-gray-600">CEO</h4>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="flex justify-center gap-4 mt-4">
+                        <a href="#slide-1"
+                            class="bg-gray-200 hover:bg-[#FD6F00] dark:bg-[#FD6F00] dark:hover:bg-gray-200 p-3 rounded-full transition"></a>
+                        <a href="#slide-2"
+                            class="bg-gray-200 hover:bg-[#FD6F00] dark:bg-[#FD6F00] dark:hover:bg-gray-200 p-3 rounded-full transition"></a>
+                        <a href="#slide-3"
+                            class="bg-gray-200 hover:bg-[#FD6F00] dark:bg-[#FD6F00] dark:hover:bg-gray-200 p-3 rounded-full transition"></a>
+                        <a href="#slide-4"
+                            class="bg-gray-200 hover:bg-[#FD6F00] dark:bg-[#FD6F00] dark:hover:bg-gray-200 p-3 rounded-full transition"></a>
+                        <a href="#slide-5"
+                            class="bg-gray-200 hover:bg-[#FD6F00] dark:bg-[#FD6F00] dark:hover:bg-gray-200 p-3 rounded-full transition"></a>
+                    </div>
+                </div>
+        </section>
+
+        <section class="mb-20">
+            <div class="container mx-auto px-3 sm:px-5 py-5 flex flex-col items-center gap-16" id="Contact">
+                <h2 class="font-bold text-2xl sm:text-5xl dark:text-white">Lets Design Together</h2>
+                <p class="w-full md:w-[800px] text-center dark:text-white">
+                    Have a project in mind or need a modern, responsive website? Let’s collaborate and bring your vision
+                    to life — from concept to clean, functional design. I’m ready when you are!
+                </p>
+                <div class="w-full max-w-md mx-auto">
+                    <form id="contact-form" class="space-y-4">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required
+                            class="w-full bg-[#FBFBFB] px-5 py-3 border border-gray-300 rounded-xl placeholder-gray-500" />
+                        <input type="email" id="email" name="email" placeholder="Your Email" required
+                            class="w-full bg-[#FBFBFB] px-5 py-3 border border-gray-300 rounded-xl placeholder-gray-500" />
+                        <textarea id="message" name="message" placeholder="Your Message" rows="4" required
+                            class="w-full bg-[#FBFBFB] px-5 py-3 border border-gray-300 rounded-xl placeholder-gray-500"></textarea>
+                        <button type="submit"
+                            class="w-full md:w-[200px] bg-[#FD6F00] text-white font-semibold px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                            Contact Me
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="mx-auto flex flex-col items-center">
+            <div class="w-full flex flex-col items-center gap-8 sm:gap-16 bg-[#FBFBFB] dark:bg-[#1e1e1e] py-12">
+                <div class="w-[210px] sm:w-[350px]">
+                    <img src="images/header/logo-main.png" alt="" class="dark:hidden w-full">
+                    <img src="images/header/logo-main-4.png" alt="" class="hidden dark:block w-full">
+                </div>
+                <div>
+                    <ul
+                        class="grid grid-cols-3 sm:grid-cols-6 items-center text-center gap-2 sm:gap-3 text-sm sm:text-lg font-semibold dark:text-white">
+                        <li class="hover:underline hover:text-[#fd6f00]"><a href="#">Home</a></li>
+                        <li class="hover:underline hover:text-[#fd6f00]"><a href="#About">About Me</a></li>
+                        <li class="hover:underline hover:text-[#fd6f00]"><a href="#Services">Services</a></li>
+                        <li class="hover:underline hover:text-[#fd6f00]"><a href="#Projects">Projects</a></li>
+                        <li class="hover:underline hover:text-[#fd6f00]"><a href="#Testimonials">Testimonials</a></li>
+                        <li class="hover:underline hover:text-[#fd6f00]"><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="flex items-center justify-center gap-5">
+                        <!-- <li
+                            class="transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                            <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/main/hero-section/Facebook.png" alt="Facebook-icon"
+                                    class="dark:hidden"></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/main/hero-section/Facebook-1.png" alt="Facebook-icon"
+                                    class="hidden dark:block"></a>
+                        </li> -->
+                        <li
+                            class="transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                            <a href="https://github.com/amirabbas-eshghi" target="_blank" rel="noopener noreferrer"><img
+                                    src="images/main/hero-section/git-hub.png" alt="twitter-icon"
+                                    class="dark:hidden"></a>
+                            <a href="https://github.com/amirabbas-eshghi" target="_blank" rel="noopener noreferrer"><img
+                                    src="images/main/hero-section/git-hub-1.png" alt="twitter-icon"
+                                    class="hidden dark:block"></a>
+                        </li>
+                        <li
+                            class="transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                            <a href="https://www.instagram.com/amirabbaseshghi.dev?igsh=bm00eHI0Y2Q3Y21t"
+                                target="_blank" rel="noopener noreferrer"><img
+                                    src="images/main/hero-section/Instagram.png" alt="Instagram-icon"
+                                    class="dark:hidden"></a>
+                            <a href="https://www.instagram.com/amirabbaseshghi.dev?igsh=bm00eHI0Y2Q3Y21t"
+                                target="_blank" rel="noopener noreferrer"><img
+                                    src="images/main/hero-section/Instagram-1.png" alt="Instagram-icon"
+                                    class="hidden dark:block"></a>
+                        </li>
+                        <li
+                            class="transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer">
+                            <a href="https://www.linkedin.com/amirabbas-eshghi" target="_blank"
+                                rel="noopener noreferrer"><img src="images/main/hero-section/LinkedIn.png"
+                                    alt="LinkedIn-icon" class="dark:hidden"></a>
+                            <a href="https://www.linkedin.com/amirabbas-eshghi" target="_blank"
+                                rel="noopener noreferrer"><img src="images/main/hero-section/LinkedIn-1.png"
+                                    alt="LinkedIn-icon" class="hidden dark:block"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full bg-[#545454] dark:bg-[#000000] text-center p-3 text-white">
+                <p class="font-semibold text-xs sm:text-lg">© 2025 <span class="text-[#FD6F00]">Amirabbas</span> All
+                    Rights Reserved , Inc.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- npx @tailwindcss/cli -i ./src/styles/input.css -o ./src/styles/output.css --watch -->
+    <!-- npx @tailwindcss/cli -i input.css -o output.css --watch -->
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const formData = new FormData(this);
+            const formObject = {};
+            formData.forEach((value, key) => {
+                formObject[key] = value;
+            });
+
+            fetch('https://formspree.io/f/mqaqaklb', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formObject)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert('Your message has been sent successfully!');
+                    } else {
+                        alert('Oops! There was a problem sending your message.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('There was an error. Please try again later.');
+                });
+        });
+    </script>
+
+    <script>
+        if (localStorage.theme === 'dark' ||
+            (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
+
+    <script>
+        const toggleBtn = document.getElementById('toggleDark');
+        const darkIcon = document.getElementById('darkIcon');
+        const html = document.documentElement;
+
+        function updateIcon() {
+            darkIcon.textContent = html.classList.contains('dark') ? '☀️' : '🌙';
+        }
+
+        toggleBtn.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            localStorage.theme = html.classList.contains('dark') ? 'dark' : 'light';
+            updateIcon();
+        });
+
+        updateIcon();
+    </script>
+</body>
+
+</html>
